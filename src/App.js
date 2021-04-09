@@ -8,8 +8,10 @@ class App extends Component{
     return (
         <div className="App">
           <Header/>
-          <MovieList/>
-          <MovieDetails/>
+          <div className='d-flex flex-row'>
+              <MovieList/>
+              <MovieDetails/>
+          </div>
         </div>
     );
   }
